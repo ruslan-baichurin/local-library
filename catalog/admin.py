@@ -39,7 +39,5 @@ class BookInstanceAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Author, AuthorAdmin)
-# admin.site.register(Book)
-# admin.site.register(BookInstance)
 admin.site.register(Genre)
 admin.site.register(Language)
